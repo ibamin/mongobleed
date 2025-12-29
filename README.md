@@ -35,6 +35,9 @@ python3 mongobleed.py --host <target> --max-offset 50000
 
 # Custom range
 python3 mongobleed.py --host <target> --min-offset 100 --max-offset 20000
+
+# Analysis leaked.bin Viwer
+python3 analyze_mongobleed_leak.py leaked.bin
 ```
 
 ## Options
